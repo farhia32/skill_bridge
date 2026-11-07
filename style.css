@@ -1,0 +1,158 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root {
+--primary-color: #14532D;
+--secondary-color: #166534;
+--accent-color: #D4A853;
+
+--background-color: #FAF7F0;
+--soft-green: #E8F0E1;
+
+--text-color: #292D32;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: var(--background-color);
+color: var(--text-color);
+line-height: 1.6;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+section {
+padding: 70px 8%;
+}
+
+
+header {
+background-color: var(--background-color);
+padding: 20px 8%;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo a {
+font-size: 28px;
+font-weight: bold;
+color: var(--primary-color);
+}
+
+.nav-links {
+display: flex;
+list-style: none;
+gap: 30px;
+}
+
+.nav-links a {
+color: var(--text-color);
+font-size: 15px;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: var(--secondary-color);
+}
+
+.get-started {
+ background-color: var(--primary-color);
+color: white;
+padding: 12px 22px;
+border-radius: 30px;
+transition: 0.3s;
+}
+
+.get-started:hover {
+background-color: var(--accent-color);
+color: var(--text-color);
+}
+
+.hero {
+min-height: 480px;
+display: flex;
+align-items: center;
+padding: 70px 8%;
+}
+
+.hero-content {
+max-width: 650px;
+}
+
+.hero h1 {
+font-size: 58px;
+line-height: 1.15;
+color: var(--primary-color);
+margin-bottom: 20px;
+}
+
+.hero h1 span {
+color: var(--accent-color);
+}
+
+.hero p {
+font-size: 18px;
+color: var(--muted-color);
+margin-bottom: 30px;
+max-width: 550px;
+}
+
+.hero-btn {
+display: flex;
+gap: 15px;
+}
+
+.primary-btn {
+background-color: var(--primary-color);
+color: white;
+padding: 14px 25px;
+border-radius: 30px;
+}
+
+.secondary-btn {
+border: 1px solid var(--primary-color);
+color: var(--primary-color);
+padding: 14px 25px;
+border-radius: 30px;
+}
+
+.primary-btn:hover, .secondary-btn:hover {
+background-color: var(--accent-color);
+color: var(--text-color);
+}
+
+
+.categories {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+background-color: var(--soft-green);
+margin: 20px 8%;
+padding: 30px;
+border-radius: 15px;
+text-align: center;
+}
+
+.category {
+padding: 15px;
+border-right: 1px solid var(--accent-color);
+}
+
+.category h3 {
+color: var(--primary-color);
+margin-bottom: 5px;
+}
+
+.category p {
+color: var(--muted-color);
+font-size: 14px;
+}
