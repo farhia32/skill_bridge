@@ -1129,7 +1129,7 @@ margin-bottom: 30px;
 
 .our-story {
 background-color: var(--background-color);
-padding: 70px 8%;
+padding: 70px 80px;
 text-align: center;
 }
 
@@ -1237,6 +1237,227 @@ font-size: 36px;
 
 .about-hero, .our-story, .mission-vision, .what-we-offer{
 padding: 50px 6%;
+}
+
+}
+
+
+.details-hero {
+background-color: var(--soft-green);
+padding: 90px 80px;
+text-align: center;
+}
+
+.details-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.details-content .hero-tagline {
+color: var(--secondary-color);
+font-weight: bold;
+letter-spacing: 2px;
+font-size: 13px;
+margin-bottom: 18px;
+}
+
+.details-content h1 {
+color: var(--primary-color);
+font-size: 48px;
+margin: 20px 0;
+}
+
+.details-content h1 span {
+color: var(--accent-color);
+}
+
+.details-content p {
+color: var(--muted-color);
+font-size: 17px;
+line-height: 1.8;
+}
+
+.opportunity-details {
+background-color: var(--background-color);
+padding: 80px 80px;
+}
+
+.details-header {
+text-align: center;
+margin-bottom: 45px;
+}
+
+.opportunity-category {
+display: inline-block;
+background-color: var(--soft-green);
+color: var(--secondary-color);
+padding: 8px 20px;
+border-radius: 30px;
+font-size: 13px;
+font-weight: bold;
+letter-spacing: 1px;
+margin-bottom: 15px;
+}
+
+.details-header h2 {
+color: var(--primary-color);
+font-size: 32px;
+margin-bottom: 12px;
+}
+
+.organization-name {
+color: var(--muted-color);
+font-size: 15px;
+}
+
+.details-description {
+background-color: var(--soft-green);
+padding: 30px;
+border-left: 4px solid var(--accent-color);
+border-radius: var(--border-radius);
+margin-bottom: 30px;
+box-shadow: var(--card-shadow);
+}
+
+.details-description h3 {
+color: var(--primary-color);
+font-size: 23px;
+margin-bottom: 15px;
+}
+
+.details-description p {
+color: var(--muted-color);
+font-size: 15px;
+line-height: 1.8;
+}
+
+.details-information {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 25px;
+margin-bottom: 35px;
+}
+
+.information-item {
+background-color: var(--soft-green);
+padding: 28px;
+border-radius: var(--border-radius);
+border-bottom: 3px solid var(--accent-color);
+box-shadow: var(--card-shadow);
+}
+
+.information-item h3 {
+color: var(--primary-color);
+font-size: 20px;
+margin-bottom: 12px;
+}
+
+.information-item p {
+color: var(--muted-color);
+font-size: 15px;
+line-height: 1.8;
+}
+
+.details-requirements {
+background-color: var(--soft-green);
+padding: 30px;
+border-radius: var(--border-radius);
+border-left: 4px solid var(--accent-color);
+margin-bottom: 35px;
+box-shadow: var(--card-shadow);
+}
+
+.details-requirements h3 {
+color: var(--primary-color);
+font-size: 23px;
+margin-bottom: 18px;
+}
+
+.details-requirements ul {
+padding-left: 22px;
+}
+
+.details-requirements li {
+color: var(--muted-color);
+font-size: 15px;
+line-height: 2;
+}
+
+.details-apply {
+background-color: var(--primary-color);
+padding: 50px 30px;
+text-align: center;
+border-radius: var(--border-radius);
+}
+
+.details-apply h3 {
+color: var(--background-color);
+font-size: 30px;
+margin-bottom: 15px;
+}
+
+.details-apply p {
+color: #E5E7EB;
+font-size: 16px;
+margin-bottom: 25px;
+}
+
+.details-apply a {
+display: inline-block;
+padding: 13px 24px;
+border-radius: 7px;
+text-decoration: none;
+font-weight: bold;
+margin: 8px;
+transition: 0.3s ease;
+}
+
+.details-apply .primary-btn {
+background-color: var(--accent-color);
+color: white;
+}
+
+.details-apply .secondary-btn {
+background-color: transparent;
+color: white;
+border: 1px solid white;
+}
+
+.details-apply .primary-btn:hover,
+.details-apply .secondary-btn:hover {
+background-color: var(--accent-color);
+color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+.details-hero {
+padding: 65px 24px;
+}
+
+.details-content h1 {
+font-size: 34px;
+}
+
+.opportunity-details {
+padding: 55px 24px;
+}
+
+.details-header h2 {
+font-size: 26px;
+}
+
+.details-information {
+grid-template-columns: 1fr;
+}
+
+.details-apply {
+padding: 40px 20px;
+}
+
+.details-apply a {
+display: block;
+max-width: 230px;
+margin: 12px auto;
 }
 
 }
