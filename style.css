@@ -636,7 +636,6 @@ gap: 12px;
 
 }
 
-
 .opportunities-hero {
 background-color: var(--soft-green);
 padding: 90px 80px;
@@ -730,8 +729,8 @@ transform: translateY(-5px);
 }
 
 .category-card img {
-width: 100%;
-height: 80px;
+width: 65px;
+height: 65px;
 object-fit: contain;
 margin: 0 auto 15px;
 }
@@ -756,7 +755,7 @@ grid-template-columns: repeat(3, 1fr);
 gap: 25px;
 }
 
-.opportunity-card {
+.opportunity-card2 {
 width: 100%;
 background-color: var(--white-color);
 padding: 0;
@@ -766,11 +765,11 @@ box-shadow: var(--card-shadow);
 transition: 0.3s ease;
 }
 
-.opportunity-card:hover {
+.opportunity-card2:hover {
 transform: translateY(-5px);
 }
 
-.opportunity-card img {
+.opportunity-card2 img {
 width: 100%;
 height: 190px;
 object-fit: cover;
@@ -780,31 +779,30 @@ object-fit: cover;
 padding: 22px;
 }
 
-.opportunity-card h3 {
+.opportunity-card2 h3 {
 color: var(--primary-color);
 font-size: 19px;
 padding: 0;
 margin-bottom: 10px;
 }
 
-.opportunity-card p {
+.opportunity-card2 p {
 color: var(--muted-color);
 font-size: 14px;
 padding: 0;
 margin-bottom: 18px;
 }
 
-.opportunity-card a {
+.opportunity-card2 a {
 display: inline-block;
 margin-left: 0;
 color: var(--secondary-color);
 font-weight: bold;
 }
 
-.opportunity-card a:hover {
-color: var(--text-color);
+.opportunity-card2 a:hover {
+color: var(--accent-color);
 }
-
 
 @media (max-width: 768px) {
 .opportunities-hero {
@@ -844,6 +842,262 @@ width: 100%;
 
 .opportunity-grid {
 grid-template-columns: 1fr;
+}
+
+}
+
+
+.learning-hero {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 50px;
+padding: 85px 80px;
+background-color: var(--soft-green);
+}
+
+.learning-hero-content {
+width: 50%;
+}
+
+.learning-hero-content .hero-tagline {
+color: var(--secondary-color);
+font-size: 13px;
+font-weight: bold;
+letter-spacing: 2px;
+margin-bottom: 18px;
+}
+
+.learning-hero-content h1 {
+color: var(--primary-color);
+font-size: 48px;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+
+.learning-hero-content h1 span {
+display: block;
+color: var(--accent-color);
+}
+
+.learning-hero-content p {
+color: var(--muted-color);
+font-size: 17px;
+line-height: 1.8;
+margin-bottom: 25px;
+}
+
+.learning-hero-image {
+width: 50%;
+}
+
+.learning-hero-image img {
+width: 100%;
+height: 390px;
+object-fit: cover;
+border-radius: 15px;
+box-shadow: var(--card-shadow);
+}
+
+.learning-categories {
+background-color: var(--background-color);
+padding: 80px 70px;
+}
+
+.learning-category-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 22px;
+}
+
+.learning-category-card {
+background-color: var(--soft-green);
+padding: 0 0 25px;
+text-align: center;
+border-radius: var(--border-radius);
+overflow: hidden;
+box-shadow: var(--card-shadow);
+transition: 0.3s ease;
+}
+
+.learning-category-card:hover {
+transform: translateY(-5px);
+}
+
+.learning-category-card img {
+width: 100%;
+height: 170px;
+object-fit: cover;
+}
+
+.learning-category-card h3 {
+color: var(--primary-color);
+font-size: 19px;
+margin: 18px 12px 8px;
+}
+
+.learning-category-card p {
+color: var(--muted-color);
+font-size: 14px;
+padding: 0 15px;
+line-height: 1.7;
+}
+
+.featured-courses {
+background-color: var(--soft-green);
+padding: 80px 70px;
+}
+
+.learning-course-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+}
+
+.learning-course-card {
+background-color: var(--background-color);
+border-radius: var(--border-radius);
+overflow: hidden;
+box-shadow: var(--card-shadow);
+transition: 0.3s ease;
+}
+
+.learning-course-card:hover {
+transform: translateY(-5px);
+}
+
+.learning-course-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.course-content {
+padding: 22px;
+}
+
+.course-content h3 {
+color: var(--primary-color);
+font-size: 19px;
+margin-bottom: 12px;
+}
+
+.course-content p {
+color: var(--muted-color);
+font-size: 14px;
+line-height: 1.8;
+margin-bottom: 18px;
+}
+
+.course-content a {
+color: var(--secondary-color);
+font-weight: bold;
+text-decoration: none;
+display: inline-block;
+}
+
+.course-content a:hover {
+color: var(--accent-color);
+}
+
+.learning-platforms {
+background-color: var(--background-color);
+padding: 80px 70px;
+}
+
+.platform-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 25px;
+}
+
+.platform-card {
+background-color: var(--soft-green);
+padding: 30px;
+border-left: 4px solid var(--accent-color);
+border-radius: var(--border-radius);
+box-shadow: var(--card-shadow);
+transition: 0.3s ease;
+}
+
+.platform-card:hover {
+transform: translateY(-5px);
+}
+
+.platform-card h3 {
+color: var(--primary-color);
+font-size: 21px;
+margin-bottom: 12px;
+}
+
+.platform-card p {
+color: var(--muted-color);
+font-size: 15px;
+line-height: 1.8;
+}
+
+.platform-card a {
+display: inline-block;
+background-color: var(--secondary-color);
+color: white;
+padding: 12px 22px;
+border-radius: 7px;
+text-decoration: none;
+font-weight: bold;
+margin-top: 18px;
+transition: 0.3s ease;
+}
+
+.platform-card a:hover {
+background-color: var(--accent-color);
+color: var(--text-color);
+}
+
+@media (max-width: 900px) {
+.learning-category-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.learning-course-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.learning-hero {
+gap: 30px;
+padding: 65px 40px;
+}
+
+}
+
+@media (max-width: 600px) {
+.learning-hero {
+flex-direction: column;
+padding: 55px 24px;
+text-align: center;
+}
+
+.learning-hero-content, .learning-hero-image {
+width: 100%;
+}
+
+.learning-hero-content h1 {
+font-size: 34px;
+}
+
+.learning-hero-content p {
+ font-size: 15px;
+}
+
+.learning-hero-image img {
+height: 270px;
+}
+
+.learning-category-grid, .learning-course-grid, .platform-grid {
+grid-template-columns: 1fr;
+}
+
+.learning-categories, .featured-courses, .learning-platforms {
+padding: 55px 24px;
 }
 
 }
