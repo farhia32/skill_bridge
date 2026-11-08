@@ -1101,3 +1101,142 @@ padding: 55px 24px;
 }
 
 }
+
+
+.about-hero {
+background-color: var(--soft-green);
+padding: 100px 8%;
+text-align: center;
+}
+
+.about-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.about-content h1 {
+font-size: 48px;
+color: var(--primary-color);
+margin-bottom: 20px;
+}
+
+.about-content p {
+font-size: 18px;
+color: var(--muted-color);
+line-height: 1.8;
+margin-bottom: 30px;
+}
+
+.our-story {
+background-color: var(--background-color);
+padding: 70px 8%;
+text-align: center;
+}
+
+.our-story h2 {
+font-size: 32px;
+color: var(--primary-color);
+margin-bottom: 20px;
+}
+
+.our-story p {
+max-width: 850px;
+margin: 15px auto;
+font-size: 17px;
+line-height: 1.8;
+color: var(--muted-color);
+}
+
+.mission-vision {
+background-color: var(--soft-green);
+padding: 80px 70px;
+display: flex;
+gap: 25px;
+justify-content: center;
+}
+
+.mission,.vision {
+flex: 1;
+max-width: 500px;
+padding: 35px;
+border: 1px solid var(--accent-color);
+border-radius: var(--border-radius);
+border-left: 4px solid var(--accent-color);
+box-shadow: var(--card-shadow);
+}
+
+.mission h2, .vision h2 {
+color: var(--primary-color);
+font-size: 25px;
+margin-bottom: 20px;
+}
+
+.mission p, .vision p {
+color: var(--muted-color);
+font-size: 15px;
+line-height: 1.8;
+}
+
+.what-we-offer {
+background-color: var(--background-color);
+padding: 80px 70px;
+text-align: center;
+}
+
+.what-we-offer h2 {
+color:var(--primary-color);
+font-size: 32px;
+margin-bottom: 15px;
+}
+
+.what-we-offer  p{
+color: var(--muted-color);
+font-size: 17px;
+margin-bottom: 40px;
+}
+
+.offer-list {
+display: flex;
+justify-content: center;
+gap: 25px;
+}
+
+.offer {
+flex: 1;
+padding: 30px;
+border-bottom: 3px solid var(--accent-color) ;
+border-radius: 12px;
+background-color: var(--soft-green);
+box-shadow: var(--card-shadow);
+transition: 0.3s ease;
+}
+.offer:hover {
+transform: translateY(-5px);
+}
+
+.offer h3 {
+color: var(--primary-color);
+font-size: 22px;
+margin-bottom: 15px;
+}
+
+.offer p {
+color: var(--muted-color);
+line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+
+.mission-vision, .offer-list {
+flex-direction: column;
+}
+
+.about-content h1 {
+font-size: 36px;
+}
+
+.about-hero, .our-story, .mission-vision, .what-we-offer{
+padding: 50px 6%;
+}
+
+}
