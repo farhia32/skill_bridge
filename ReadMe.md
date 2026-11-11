@@ -203,3 +203,9 @@ By bringing scholarships, internships, and learning resources together, the plat
 
 **Year:** 2026
 
+## 18. License
+
+This project was created for educational purposes.
+
+Any third-party images, icons, or other assets used in the project remain subject to their respective licenses.
+
