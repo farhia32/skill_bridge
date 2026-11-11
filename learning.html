@@ -51,16 +51,37 @@
 <h2>Discover Learning Categories</h2>
 <p>Choose an area of interest and start developing valuable skills for your future.</p>
         </div>
+        
+         <div class="category-filter">
+        <label for="category-select">Choose a Learning Category</label>
+        <select id="category-select">
+            <option value="all">All Categories</option>
+            <option value="Technology">Technology</option>
+            <option value="Business">Business</option>
+            <option value="Creative Design">Creative Design</option>
+            <option value="Personal Development">Personal Development</option>
+            <option value="Courses">Courses</option>
+        </select>
+        <div id="course-filter" style="display: none;">
+<select id="course-select">
+    <option value="all">All Courses</option>
+    <option value="web-development">Web Development</option>
+    <option value="data-analytics">Data Analytics</option>
+    <option value="graphic-design">Graphic Design</option>
+</select>
+    </div>
+</div>
 
         <div class="learning-category-grid">
-            <div class="learning-category-card">
-    <img src="images/technology2.jpg" alt="Technology">
 
+    <div class="learning-category-card" data-filter="Technology">
+    <img src="images/technology2.jpg" alt="Technology">
+    
  <h3>Technology</h3>
  <p>Learn programming, web development and digital skills.</p>
         </div>
 
-    <div class="learning-category-card">
+    <div class="learning-category-card" data-filter="Business">
 
     <img src="images/business2.jpg" alt="Business">
 
@@ -69,13 +90,13 @@
 </div>
 
 
-<div class="learning-category-card">
+<div class="learning-category-card" data-filter="Creative Design">
    <img src="images/design.jpg" alt="Creative design">
    <h3>Creative Design</h3>
    <p>Explore graphic design, creativity and digital media.</p>
 </div>
 
-<div class="learning-category-card">
+<div class="learning-category-card" data-filter="Personal Development">
  <img src="images/personal-development.jpg"alt="Personal development">
     <h3>Personal Development</h3>
     <p>Improve communication, productivity and personal growth.</p>
@@ -95,9 +116,10 @@
 
 </div>
 
+
 <div class="learning-course-grid">
 
-    <div class="learning-course-card">
+    <div class="learning-course-card" data-category="Technology" data-course="web-development" >
 
     <img src="images/web-development.jpg" alt="Web development course">
 
@@ -110,7 +132,7 @@
     </div>
 </div>
 
-    <div class="learning-course-card">
+    <div class="learning-course-card" data-category="Technology" data-course="data-analytics" >
 
     <img src="images/data-analysis.jpg" alt="Data analysis course">
    <div class="course-content">
@@ -121,7 +143,7 @@
 </div>
 </div>
 
-<div class="learning-course-card">
+<div class="learning-course-card" data-category="Business" data-course="digital-marketing">
 
 <img src="images/digital-marketing.jpg"alt="Digital marketing course">
 
@@ -130,7 +152,6 @@
 <h3>Digital Marketing Fundamentals</h3>
 <p>Learn the basics of online marketing, branding and digital communication.</p>
 <a href="details.html">Explore Course</a>
-
 </div>
 </div>
 
@@ -232,7 +253,8 @@
         </div>
         
     </footer>
-    
-    
+
+<script src="script.js"></script>  
+
 </body>
 </html>

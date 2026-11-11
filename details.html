@@ -39,9 +39,175 @@
 
 </section>
 
-    <section class="opportunity-details">
+<section class="opportunity-search-section">
 
-<div class="details-header">
+    <div class="search-heading">
+        <p class="hero-tagline">FIND YOUR NEXT STEP</p>
+
+        <h2>Explore Opportunities</h2>
+
+        <p>
+            Search and discover scholarships, internships
+            and online courses that match your goals.
+        </p>
+    </div>
+
+    <div class="search-container">
+
+        <div class="search-input">
+            <input 
+                type="text" 
+                id="opportunity-search"
+                placeholder="Search opportunities..."
+            >
+        </div>
+
+        <div class="filter-options">
+
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="scholarship">Scholarships</option>
+                <option value="internship">Internships</option>
+                <option value="course">Online Courses</option>
+            </select>
+
+            <select id="location-filter">
+                <option value="all">All Locations</option>
+                <option value="international">International</option>
+                <option value="remote">Remote</option>
+                <option value="local">Local</option>
+            </select>
+
+            <button type="button" id="search-button" class="primary-btn">
+                Search
+            </button>
+
+            <button type="button" id="clear-button" class="secondary-btn">
+                Clear
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="search-results">
+        <p id="results-count">Showing all opportunities</p>
+    </div>
+
+</section>
+
+    <section class="opportunity-details">
+<article class="opportunity-item" data-category="scholarship" data-location="international">
+    <div class="details-header">
+        <p class="opportunity-category">SCHOLARSHIP</p>
+        <h2>International Scholarships</h2>
+        <p class="organization-name">Offered by: International Education Foundation</p>
+    </div>
+
+    <div class="details-description">
+        <h3>About This Opportunity</h3>
+        <p>This scholarship programme supports students who wish to pursue higher education in international universities. It provides financial assistance to help students access quality education and explore academic opportunities abroad.</p>
+    </div>
+
+    <div class="details-information">
+
+        <div class="information-item">
+            <h3>Eligibility</h3>
+            <p>Open to qualified students interested in pursuing undergraduate or postgraduate studies abroad.</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Application Deadline</h3>
+            <p>15th December 2026</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Location</h3>
+            <p>International</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Scholarship Benefits</h3>
+            <p>Financial support towards tuition fees and other eligible educational expenses.</p>
+        </div>
+
+    </div>
+
+    <div class="details-requirements">
+        <h3>Requirements</h3>
+        <ul>
+            <li>Academic certificates and transcripts.</li>
+            <li>A valid identification document or passport.</li>
+            <li>A personal statement.</li>
+            <li>Recommendation letters where required.</li>
+            <li>Completed scholarship application form.</li>
+        </ul>
+    </div>
+    <div class="details-apply">
+        <a href="login.html" class="primary-btn">Apply Now</a>
+        <a href="login.html" class="secondary-btn">Send Inquiry</a>
+    </div>
+    </article>
+
+<br>
+<br>
+<article class="opportunity-item" data-category="scholarship" data-location="international">
+
+     <div class="details-header">
+        <p class="opportunity-category">SCHOLARSHIP</p>
+        <h2>University Scholarships</h2>
+        <p class="organization-name">Offered by: University Scholarship Programme</p>
+    </div>
+
+    <div class="details-description">
+        <h3>About This Opportunity</h3>
+        <p>This scholarship programme provides financial assistance to students pursuing university education. It aims to support talented and hardworking students by reducing the financial challenges associated with higher education.</p>
+    </div>
+
+    <div class="details-information">
+
+        <div class="information-item">
+            <h3>Eligibility</h3>
+            <p>Open to students who meet the academic and admission requirements of participating universities.</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Application Deadline</h3>
+            <p>10th December 2026</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Location</h3>
+            <p>Participating universities.</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Scholarship Benefits</h3>
+            <p>Financial assistance towards university tuition and educational expenses.</p>
+        </div>
+
+    </div>
+
+    <div class="details-requirements">
+        <h3>Requirements</h3>
+        <ul>
+            <li>Academic certificates and transcripts.</li>
+            <li>University admission letter where applicable.</li>
+            <li>Valid identification document.</li>
+            <li>Completed scholarship application form.</li>
+            <li>Additional documents requested by the university.</li>
+        </ul>
+    </div>
+    <div class="details-apply">
+        <a href="login.html" class="primary-btn">Apply Now</a>
+        <a href="login.html" class="secondary-btn">Send Inquiry</a>
+    </div>
+    </article>
+    <br>
+    <br>
+
+    <article class="opportunity-item" data-category="scholarship" data-location="international">
+    <div class="details-header">
 <p class="opportunity-category">SCHOLARSHIP</p>
 <h2>Undergraduate Scholarship Programme</h2>
 <p class="organization-name">Offered by: Global Education Foundation</p>
@@ -85,11 +251,124 @@
             </ul>
 
         </div>
-
-    </section>
+        <div class="details-apply">
+        <a href="login.html" class="primary-btn">Apply Now</a>
+        <a href="login.html" class="secondary-btn">Send Inquiry</a>
+    </div>
+</article>
+</section>
 
     <section class="opportunity-details">
+        <article class="opportunity-item" data-category="internship" data-location="international">
+    <div class="details-header">
+        <p class="opportunity-category">INTERNSHIP</p>
+        <h2>Technology Internships</h2>
+        <p class="organization-name">Offered by: Technology Innovation Centre</p>
+    </div>
 
+    <div class="details-description">
+        <h3>About This Opportunity</h3>
+        <p>This internship programme introduces students and aspiring professionals to the technology industry. Participants gain practical experience, develop technical skills and learn how technology is used to solve real-world problems.</p>
+    </div>
+
+    <div class="details-information">
+
+        <div class="information-item">
+            <h3>Eligibility</h3>
+            <p>Open to students and recent graduates interested in technology and innovation.</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Application Deadline</h3>
+            <p>18th December 2026</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Location</h3>
+            <p>Available opportunities may be on-site or remote.</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Duration</h3>
+            <p>3 to 6 Months.</p>
+        </div>
+
+    </div>
+
+    <div class="details-requirements">
+        <h3>Requirements</h3>
+        <ul>
+            <li>Interest in technology and innovation.</li>
+            <li>Basic computer skills.</li>
+            <li>Willingness to learn new technologies.</li>
+            <li>A CV or updated resume.</li>
+            <li>Good communication and teamwork skills.</li>
+        </ul>
+    </div>
+    <div class="details-apply">
+        <a href="login.html" class="primary-btn">Apply Now</a>
+        <a href="login.html" class="secondary-btn">Send Inquiry</a>
+    </div>
+    </article>
+<br>
+    <br>
+
+<article class="opportunity-item" data-category="internship" data-location="international">
+    <div class="details-header">
+        <p class="opportunity-category">INTERNSHIP</p>
+        <h2>Business Internships</h2>
+        <p class="organization-name">Offered by: Business Development Centre</p>
+    </div>
+
+    <div class="details-description">
+        <h3>About This Opportunity</h3>
+        <p>This internship programme offers students and recent graduates an opportunity to explore the business environment. Participants develop professional skills in business operations, management, marketing and entrepreneurship.</p>
+    </div>
+
+    <div class="details-information">
+
+        <div class="information-item">
+            <h3>Eligibility</h3>
+            <p>Open to students and graduates interested in business, management and entrepreneurship.</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Application Deadline</h3>
+            <p>22nd December 2026</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Location</h3>
+            <p>Participating business organizations.</p>
+        </div>
+
+        <div class="information-item">
+            <h3>Duration</h3>
+            <p>3 Months.</p>
+        </div>
+
+    </div>
+
+    <div class="details-requirements">
+        <h3>Requirements</h3>
+        <ul>
+            <li>Interest in business and professional development.</li>
+            <li>Basic computer and communication skills.</li>
+            <li>A CV or updated resume.</li>
+            <li>Ability to work with a team.</li>
+            <li>Willingness to learn and develop new skills.</li>
+        </ul>
+    </div>
+
+    <div class="details-apply">
+        <a href="login.html" class="primary-btn">Apply Now</a>
+        <a href="login.html" class="secondary-btn">Send Inquiry</a>
+    </div>
+    </article>
+<br>
+<br>
+
+<article class="opportunity-item" data-category="internship" data-location="international">
         <div class="details-header">
             <p class="opportunity-category">INTERNSHIP</p>
             <h2>Junior Web Development Internship</h2>
@@ -134,16 +413,161 @@
                 <li>A CV or updated resume.</li>
             </ul>
         </div>
-
         <div class="details-apply">
-            <h3>Ready to Apply?</h3>
-            <p>Take the next step towards building your professional experience and developing your technical skills.</p>
-             <a href="#" class="primary-btn">Apply Now</a>
-            <a href="opportunities.html" class="secondary-btn">Back to Opportunities</a>
-        </div>
-
+        <a href="login.html" class="primary-btn">Apply Now</a>
+        <a href="login.html" class="secondary-btn">Send Inquiry</a>
+    </div>
+</article>
     </section>
 
+<section class="opportunity-details courses-section" id="courses">
+    <div class="section-heading courses-heading">
+        <h2>Online Courses</h2>
+        <p>Explore free online courses and develop skills that can help you grow.</p>
+    </div>
+
+    <article class="opportunity-card course-card web-development-card" data-category="course" data-location="remote" id="web-development">
+        <div class="details-header course-header">
+            <h3>Introduction to Web Development</h3>
+            <span class="opportunity-category">Online Course</span>
+        </div>
+        <div class="details-description course-description">
+            <h4>About This Course</h4>
+            <p>Learn the basics of building websites using HTML and CSS. This course is suitable for beginners who want to start their journey in web development.</p>
+        </div>
+        <div class="details-information course-information">
+            <div class="information-item course-info-item">
+                <strong>Level</strong>
+                <span>Beginner</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Duration</strong>
+                <span>Self-paced</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Mode</strong>
+                <span>Online</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Skills</strong>
+                <span>HTML and CSS</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Platform</strong>
+                <span>freeCodeCamp</span>
+            </div>
+        </div>
+        <div class="details-requirements course-learning-outcomes">
+            <h4>What You Will Learn</h4>
+            <ul>
+                <li>Understand HTML structure.</li>
+                <li>Create web pages using HTML.</li>
+                <li>Style websites using CSS.</li>
+                <li>Build simple responsive websites.</li>
+            </ul>
+        </div>
+        <div class="details-apply course-enrollment">
+            <h4>Requirements</h4>
+            <p>No previous coding experience is required. You only need a computer and internet connection.</p>
+            <a href="https://www.youtube.com/watch?v=a_iQb1lnAEQ" class="primary-btn course-btn" target="_blank" rel="noopener noreferrer">Start Learning</a>
+        </div>
+    </article>
+
+    <article class="opportunity-card course-card data-analysis-card" data-category="course" data-location="online" id="data-analysis">
+        <div class="details-header course-header">
+            <h3>Introduction to Data Analysis</h3>
+            <span class="opportunity-category">Online Course</span>
+        </div>
+        <div class="details-description course-description">
+            <h4>About This Course</h4>
+            <p>Discover how to work with data, understand information and identify useful insights. This beginner-friendly resource introduces important data analysis concepts.</p>
+        </div>
+        <div class="details-information course-information">
+            <div class="information-item course-info-item">
+                <strong>Level</strong>
+                <span>Beginner</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Duration</strong>
+                <span>Self-paced</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Mode</strong>
+                <span>Online</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Skills</strong>
+                <span>Data analysis and interpretation</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Platform</strong>
+                <span>YouTube</span>
+            </div>
+        </div>
+        <div class="details-requirements course-learning-outcomes">
+            <h4>What You Will Learn</h4>
+            <ul>
+                <li>Understand the basics of data analysis.</li>
+                <li>Work with different types of data.</li>
+                <li>Learn how to interpret information.</li>
+                <li>Understand how data supports decision-making.</li>
+            </ul>
+        </div>
+        <div class="details-apply course-enrollment">
+            <h4>Requirements</h4>
+            <p>No previous data analysis experience is required. Basic computer skills and internet access are helpful.</p>
+            <a href="https://www.youtube.com/watch?v=PSNXoAs2FtQ" class="primary-btn course-btn" target="_blank" rel="noopener noreferrer">Start Learning</a>
+        </div>
+    </article>
+
+    <article class="opportunity-card course-card digital-marketing-card" data-category="course"  data-location="online" id="digital-marketing">
+        <div class="details-header course-header">
+            <h3>Digital Marketing Fundamentals</h3>
+            <span class="opportunity-category">Online Course</span>
+        </div>
+        <div class="details-description course-description">
+            <h4>About This Course</h4>
+            <p>Learn the fundamentals of digital marketing and discover how businesses use online platforms to reach customers and promote their products.</p>
+        </div>
+        <div class="details-information course-information">
+            <div class="information-item course-info-item">
+                <strong>Level</strong>
+                <span>Beginner</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Duration</strong>
+                <span>Self-paced</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Mode</strong>
+                <span>Online</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Skills</strong>
+                <span>SEO, social media and online marketing</span>
+            </div>
+            <div class="information-item course-info-item">
+                <strong>Platform</strong>
+                <span>Google Skillshop</span>
+            </div>
+        </div>
+        <div class="details-requirements course-learning-outcomes">
+            <h4>What You Will Learn</h4>
+            <ul>
+                <li>Understand digital marketing basics.</li>
+                <li>Explore search engine optimisation.</li>
+                <li>Learn about social media marketing.</li>
+                <li>Understand online advertising strategies.</li>
+            </ul>
+        </div>
+        <div class="details-apply course-enrollment">
+            <h4>Requirements</h4>
+            <p>No previous marketing experience is required. You need internet access and an interest in digital marketing.</p>
+            <a href="https://skillshop.exceedlms.com/student/collection/1830706-fundamentals-of-digital-marketing" class="primary-btn course-btn" target="_blank" rel="noopener noreferrer">Start Learning</a>
+        </div>
+    </article>
+
+</section>
 </main>
 
      <footer>
@@ -184,7 +608,7 @@
         </div>
         
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html> 
     
